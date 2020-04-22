@@ -28,13 +28,25 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$150" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nf0-vc-gyx">
+                                <rect key="frame" x="168" y="210" width="39" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="mbA-16-LFb"/>
+                                    <constraint firstAttribute="width" constant="39" id="uOl-Zw-Yny"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="YB3-bv-nF7" firstAttribute="top" secondItem="TGM-sC-iQA" secondAttribute="bottom" constant="25" id="IFT-cH-UBm"/>
                             <constraint firstItem="TGM-sC-iQA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="OjR-mS-PYv"/>
+                            <constraint firstItem="Nf0-vc-gyx" firstAttribute="centerX" secondItem="YB3-bv-nF7" secondAttribute="centerX" id="drP-7a-Pf6"/>
                             <constraint firstItem="YB3-bv-nF7" firstAttribute="centerX" secondItem="TGM-sC-iQA" secondAttribute="centerX" id="mPn-hh-8Xf"/>
                             <constraint firstItem="TGM-sC-iQA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="p6b-I8-rlg"/>
+                            <constraint firstItem="Nf0-vc-gyx" firstAttribute="top" secondItem="YB3-bv-nF7" secondAttribute="bottom" constant="8" id="wSK-OW-Vye"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

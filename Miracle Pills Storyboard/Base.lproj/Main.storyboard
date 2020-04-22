@@ -38,15 +38,29 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view alpha="0.34999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XC0-Iz-ILf" userLabel="Divider">
+                                <rect key="frame" x="36" y="239" width="303" height="1"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1" id="6TM-Ka-6nf"/>
+                                    <constraint firstAttribute="height" constant="1" id="jG0-4L-86H"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="XC0-Iz-ILf" secondAttribute="trailing" constant="20" id="38E-Qy-ACz"/>
+                            <constraint firstItem="XC0-Iz-ILf" firstAttribute="centerX" secondItem="Nf0-vc-gyx" secondAttribute="centerX" id="94J-Og-ads"/>
                             <constraint firstItem="YB3-bv-nF7" firstAttribute="top" secondItem="TGM-sC-iQA" secondAttribute="bottom" constant="25" id="IFT-cH-UBm"/>
                             <constraint firstItem="TGM-sC-iQA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="OjR-mS-PYv"/>
+                            <constraint firstItem="XC0-Iz-ILf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="abI-XQ-fZd"/>
+                            <constraint firstItem="XC0-Iz-ILf" firstAttribute="top" secondItem="Nf0-vc-gyx" secondAttribute="bottom" constant="8" id="dZo-wG-ejG"/>
                             <constraint firstItem="Nf0-vc-gyx" firstAttribute="centerX" secondItem="YB3-bv-nF7" secondAttribute="centerX" id="drP-7a-Pf6"/>
+                            <constraint firstItem="XC0-Iz-ILf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="exe-Uc-lZA"/>
                             <constraint firstItem="YB3-bv-nF7" firstAttribute="centerX" secondItem="TGM-sC-iQA" secondAttribute="centerX" id="mPn-hh-8Xf"/>
                             <constraint firstItem="TGM-sC-iQA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="p6b-I8-rlg"/>
                             <constraint firstItem="Nf0-vc-gyx" firstAttribute="top" secondItem="YB3-bv-nF7" secondAttribute="bottom" constant="8" id="wSK-OW-Vye"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XC0-Iz-ILf" secondAttribute="trailing" constant="20" id="yc8-nh-0nx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

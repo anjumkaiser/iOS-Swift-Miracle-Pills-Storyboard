@@ -18,10 +18,22 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="miraclePillEmoji" translatesAutoresizingMaskIntoConstraints="NO" id="TGM-sC-iQA">
                                 <rect key="frame" x="142.66666666666666" y="66" width="90" height="90"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MIRACLE PILLS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YB3-bv-nF7">
+                                <rect key="frame" x="128" y="181" width="119" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="dOo-eE-tzt"/>
+                                    <constraint firstAttribute="width" constant="119" id="edk-Md-bXy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="YB3-bv-nF7" firstAttribute="top" secondItem="TGM-sC-iQA" secondAttribute="bottom" constant="25" id="IFT-cH-UBm"/>
                             <constraint firstItem="TGM-sC-iQA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="OjR-mS-PYv"/>
+                            <constraint firstItem="YB3-bv-nF7" firstAttribute="centerX" secondItem="TGM-sC-iQA" secondAttribute="centerX" id="mPn-hh-8Xf"/>
                             <constraint firstItem="TGM-sC-iQA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="p6b-I8-rlg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

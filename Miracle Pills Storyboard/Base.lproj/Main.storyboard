@@ -97,6 +97,33 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STATE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ykL-k8-rKf">
+                                <rect key="frame" x="36" y="461" width="303" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Fkk-sg-1pz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LjM-yq-FBi">
+                                <rect key="frame" x="36" y="490" width="125" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="dHP-LW-pQN"/>
+                                    <constraint firstAttribute="height" constant="30" id="gkh-JA-uW2"/>
+                                </constraints>
+                                <state key="normal" title="Choose your state"/>
+                                <connections>
+                                    <action selector="stateButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Map-x2-TBq"/>
+                                </connections>
+                            </button>
+                            <pickerView hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9W1-y3-FfA">
+                                <rect key="frame" x="36" y="528" width="303" height="136"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="303" id="Bx3-0k-Wv4"/>
+                                    <constraint firstAttribute="height" constant="136" id="oq5-B6-CBC"/>
+                                </constraints>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -112,32 +139,42 @@
                             <constraint firstItem="71L-jC-xMc" firstAttribute="trailing" secondItem="kGb-ju-BBR" secondAttribute="trailing" id="H6c-OU-eOJ"/>
                             <constraint firstItem="YB3-bv-nF7" firstAttribute="top" secondItem="TGM-sC-iQA" secondAttribute="bottom" constant="25" id="IFT-cH-UBm"/>
                             <constraint firstItem="kGb-ju-BBR" firstAttribute="top" secondItem="XC0-Iz-ILf" secondAttribute="bottom" constant="8" id="LN3-xq-HNg"/>
+                            <constraint firstItem="LjM-yq-FBi" firstAttribute="leading" secondItem="ykL-k8-rKf" secondAttribute="leading" id="NTV-JR-dWd"/>
                             <constraint firstItem="TGM-sC-iQA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="OjR-mS-PYv"/>
                             <constraint firstItem="kGb-ju-BBR" firstAttribute="leading" secondItem="XC0-Iz-ILf" secondAttribute="leading" id="OpU-ou-h48"/>
                             <constraint firstItem="mVS-SB-WCT" firstAttribute="trailing" secondItem="71L-jC-xMc" secondAttribute="trailing" id="QBE-Ck-wBq"/>
+                            <constraint firstItem="ykL-k8-rKf" firstAttribute="trailing" secondItem="r42-6P-pZc" secondAttribute="trailing" id="VQS-o8-NRt"/>
                             <constraint firstItem="r42-6P-pZc" firstAttribute="top" secondItem="oJx-Qo-J01" secondAttribute="bottom" constant="8" id="WHg-I1-3rQ"/>
                             <constraint firstItem="r42-6P-pZc" firstAttribute="trailing" secondItem="oJx-Qo-J01" secondAttribute="trailing" id="WXy-MJ-iZp"/>
                             <constraint firstItem="o9f-DI-JIs" firstAttribute="top" secondItem="mVS-SB-WCT" secondAttribute="bottom" constant="8" id="YQL-Fm-k2y"/>
+                            <constraint firstItem="ykL-k8-rKf" firstAttribute="top" secondItem="r42-6P-pZc" secondAttribute="bottom" constant="8" id="ZoG-Hd-9By"/>
                             <constraint firstItem="XC0-Iz-ILf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="abI-XQ-fZd"/>
+                            <constraint firstItem="9W1-y3-FfA" firstAttribute="top" secondItem="LjM-yq-FBi" secondAttribute="bottom" constant="8" id="bVp-Ex-vqG"/>
                             <constraint firstItem="XC0-Iz-ILf" firstAttribute="top" secondItem="Nf0-vc-gyx" secondAttribute="bottom" constant="8" id="dZo-wG-ejG"/>
                             <constraint firstItem="Nf0-vc-gyx" firstAttribute="centerX" secondItem="YB3-bv-nF7" secondAttribute="centerX" id="drP-7a-Pf6"/>
                             <constraint firstItem="XC0-Iz-ILf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="exe-Uc-lZA"/>
                             <constraint firstItem="71L-jC-xMc" firstAttribute="top" secondItem="kGb-ju-BBR" secondAttribute="bottom" constant="8" id="fzj-eN-Ix7"/>
                             <constraint firstItem="mVS-SB-WCT" firstAttribute="leading" secondItem="71L-jC-xMc" secondAttribute="leading" id="hhS-SQ-Ujt"/>
+                            <constraint firstItem="LjM-yq-FBi" firstAttribute="top" secondItem="ykL-k8-rKf" secondAttribute="bottom" constant="8" id="ll8-vY-PkP"/>
                             <constraint firstItem="YB3-bv-nF7" firstAttribute="centerX" secondItem="TGM-sC-iQA" secondAttribute="centerX" id="mPn-hh-8Xf"/>
                             <constraint firstItem="TGM-sC-iQA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="p6b-I8-rlg"/>
                             <constraint firstItem="r42-6P-pZc" firstAttribute="top" secondItem="oJx-Qo-J01" secondAttribute="bottom" constant="8" id="q7a-hj-bkT"/>
                             <constraint firstItem="mVS-SB-WCT" firstAttribute="top" secondItem="71L-jC-xMc" secondAttribute="bottom" constant="8" id="rc9-Fo-rjp"/>
+                            <constraint firstItem="ykL-k8-rKf" firstAttribute="leading" secondItem="r42-6P-pZc" secondAttribute="leading" id="sif-UJ-OeT"/>
                             <constraint firstItem="Nf0-vc-gyx" firstAttribute="top" secondItem="YB3-bv-nF7" secondAttribute="bottom" constant="8" id="wSK-OW-Vye"/>
                             <constraint firstAttribute="trailingMargin" secondItem="XC0-Iz-ILf" secondAttribute="trailing" constant="20" id="yc8-nh-0nx"/>
                             <constraint firstItem="71L-jC-xMc" firstAttribute="leading" secondItem="kGb-ju-BBR" secondAttribute="leading" id="zHR-Eq-x8M"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="stateButton" destination="LjM-yq-FBi" id="xcL-it-s5y"/>
+                        <outlet property="statePicker" destination="9W1-y3-FfA" id="TVy-Fm-caA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138.40000000000001" y="138.91625615763547"/>
+            <point key="canvasLocation" x="-1476" y="116"/>
         </scene>
     </scenes>
     <resources>

@@ -55,12 +55,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="71L-jC-xMc">
+                                <rect key="frame" x="36" y="277" width="303" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="ajJ-NB-51D"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="XC0-Iz-ILf" secondAttribute="trailing" constant="20" id="38E-Qy-ACz"/>
                             <constraint firstItem="kGb-ju-BBR" firstAttribute="trailing" secondItem="XC0-Iz-ILf" secondAttribute="trailing" id="3z6-He-DP0"/>
                             <constraint firstItem="XC0-Iz-ILf" firstAttribute="centerX" secondItem="Nf0-vc-gyx" secondAttribute="centerX" id="94J-Og-ads"/>
+                            <constraint firstItem="71L-jC-xMc" firstAttribute="trailing" secondItem="kGb-ju-BBR" secondAttribute="trailing" id="H6c-OU-eOJ"/>
                             <constraint firstItem="YB3-bv-nF7" firstAttribute="top" secondItem="TGM-sC-iQA" secondAttribute="bottom" constant="25" id="IFT-cH-UBm"/>
                             <constraint firstItem="kGb-ju-BBR" firstAttribute="top" secondItem="XC0-Iz-ILf" secondAttribute="bottom" constant="8" id="LN3-xq-HNg"/>
                             <constraint firstItem="TGM-sC-iQA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="OjR-mS-PYv"/>
@@ -69,10 +78,12 @@
                             <constraint firstItem="XC0-Iz-ILf" firstAttribute="top" secondItem="Nf0-vc-gyx" secondAttribute="bottom" constant="8" id="dZo-wG-ejG"/>
                             <constraint firstItem="Nf0-vc-gyx" firstAttribute="centerX" secondItem="YB3-bv-nF7" secondAttribute="centerX" id="drP-7a-Pf6"/>
                             <constraint firstItem="XC0-Iz-ILf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="exe-Uc-lZA"/>
+                            <constraint firstItem="71L-jC-xMc" firstAttribute="top" secondItem="kGb-ju-BBR" secondAttribute="bottom" constant="8" id="fzj-eN-Ix7"/>
                             <constraint firstItem="YB3-bv-nF7" firstAttribute="centerX" secondItem="TGM-sC-iQA" secondAttribute="centerX" id="mPn-hh-8Xf"/>
                             <constraint firstItem="TGM-sC-iQA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="p6b-I8-rlg"/>
                             <constraint firstItem="Nf0-vc-gyx" firstAttribute="top" secondItem="YB3-bv-nF7" secondAttribute="bottom" constant="8" id="wSK-OW-Vye"/>
                             <constraint firstAttribute="trailingMargin" secondItem="XC0-Iz-ILf" secondAttribute="trailing" constant="20" id="yc8-nh-0nx"/>
+                            <constraint firstItem="71L-jC-xMc" firstAttribute="leading" secondItem="kGb-ju-BBR" secondAttribute="leading" id="zHR-Eq-x8M"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
